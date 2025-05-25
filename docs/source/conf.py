@@ -26,6 +26,7 @@ extensions = [
 # Set the kernel for executing notebooks (optional)
 nbsphinx_kernel_name = 'python3'
 nbsphinx_execute = 'auto' 
+nbsphinx_nb_cell_tags_to_remove = ["remove-cell"]
 
 templates_path = ['_templates']
 exclude_patterns = []
